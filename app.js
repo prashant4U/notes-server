@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://notes-two-theta.vercel.app',
   credentials: true
 }));
 
